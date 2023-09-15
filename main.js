@@ -1,7 +1,10 @@
-alert('Olá, mundo');
-function tocaSomClap(){
-    document.querySelector('#som_tecla_clap').play();
+function tocaSomPom(){
+    document.querySelector('#som_tecla_pom').play();
     }
-    document.querySelector('.tecla_clap').onclick = tocaSomClap;
     document.querySelectorAll('.tecla');
-    const listaDeTeclas = document.querySelectorAll('.tecla');
+const listaDeTeclas = document.querySelectorAll('.tecla');
+listaDeTeclas[0].onclick = tocaSomPom;
+
+while (condition) {
+    
+}
